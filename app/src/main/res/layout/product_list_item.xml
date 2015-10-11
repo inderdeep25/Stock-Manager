@@ -1,0 +1,43 @@
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:padding="2dp"
+    android:layout_marginTop="5dp"
+    card_view:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:textSize="20sp"
+            android:layout_weight="0.15"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Castrol GTX"
+            android:textSize="20sp"
+            android:layout_weight="1.5"/>
+        <TextView
+            android:id="@+id/quantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_weight="0.25"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
